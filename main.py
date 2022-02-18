@@ -20,17 +20,13 @@ class Setting():
 
         logo = f"""
         {Fore.LIGHTCYAN_EX}
-        
- ██▒   █▓    ▄▄▄          ██▓        ▒█████              ██▓███ ▓██   ██▓
-▓██░   █▒   ▒████▄       ▓██▒       ▒██▒  ██▒           ▓██░  ██▒▒██  ██▒
- ▓██  █▒░   ▒██  ▀█▄     ▒██░       ▒██░  ██▒           ▓██░ ██▓▒ ▒██ ██░
-  ▒██ █░░   ░██▄▄▄▄██    ▒██░       ▒██   ██░           ▒██▄█▓▒ ▒ ░ ▐██▓░
-   ▒▀█░      ▓█   ▓██▒   ░██████▒   ░ ████▓▒░    ██▓    ▒██▒ ░  ░ ░ ██▒▓░
-   ░ ▐░      ▒▒   ▓▒█░   ░ ▒░▓  ░   ░ ▒░▒░▒░     ▒▓▒    ▒▓▒░ ░  ░  ██▒▒▒ 
-   ░ ░░       ▒   ▒▒ ░   ░ ░ ▒  ░     ░ ▒ ▒░     ░▒     ░▒ ░     ▓██ ░▒░ 
-     ░░       ░   ▒        ░ ░      ░ ░ ░ ▒      ░      ░░       ▒ ▒ ░░  
-      ░           ░  ░       ░  ░       ░ ░       ░              ░ ░     
-     ░                                            ░              ░ ░     
+ _   _       _       _____ _               _    
+| | | |     | |     /  __ \ |             | |   
+| | | | __ _| | ___ | /  \/ |__   ___  ___| | __
+| | | |/ _` | |/ _ \| |   | '_ \ / _ \/ __| |/ /
+\ \_/ / (_| | | (_) | \__/\ | | |  __/ (__|   < 
+ \___/ \__,_|_|\___/ \____/_| |_|\___|\___|_|\_\
+                                                
   """
 
 
@@ -169,17 +165,13 @@ class Menu():
 
         logo = f"""
         {Fore.LIGHTCYAN_EX}
-        
- ██▒   █▓    ▄▄▄          ██▓        ▒█████              ██▓███ ▓██   ██▓
-▓██░   █▒   ▒████▄       ▓██▒       ▒██▒  ██▒           ▓██░  ██▒▒██  ██▒
- ▓██  █▒░   ▒██  ▀█▄     ▒██░       ▒██░  ██▒           ▓██░ ██▓▒ ▒██ ██░
-  ▒██ █░░   ░██▄▄▄▄██    ▒██░       ▒██   ██░           ▒██▄█▓▒ ▒ ░ ▐██▓░
-   ▒▀█░      ▓█   ▓██▒   ░██████▒   ░ ████▓▒░    ██▓    ▒██▒ ░  ░ ░ ██▒▓░
-   ░ ▐░      ▒▒   ▓▒█░   ░ ▒░▓  ░   ░ ▒░▒░▒░     ▒▓▒    ▒▓▒░ ░  ░  ██▒▒▒ 
-   ░ ░░       ▒   ▒▒ ░   ░ ░ ▒  ░     ░ ▒ ▒░     ░▒     ░▒ ░     ▓██ ░▒░ 
-     ░░       ░   ▒        ░ ░      ░ ░ ░ ▒      ░      ░░       ▒ ▒ ░░  
-      ░           ░  ░       ░  ░       ░ ░       ░              ░ ░     
-     ░                                            ░              ░ ░     
+ _   _       _       _____ _               _    
+| | | |     | |     /  __ \ |             | |   
+| | | | __ _| | ___ | /  \/ |__   ___  ___| | __
+| | | |/ _` | |/ _ \| |   | '_ \ / _ \/ __| |/ /
+\ \_/ / (_| | | (_) | \__/\ | | |  __/ (__|   < 
+ \___/ \__,_|_|\___/ \____/_| |_|\___|\___|_|\_\
+                                                   
   """
 
 
@@ -191,11 +183,11 @@ class Menu():
         Icon4 = f"{Fore.LIGHTWHITE_EX}[{Fore.LIGHTRED_EX}4{Fore.LIGHTWHITE_EX}]"
 
     def Menu():
-        utils.set_title("Valo.py ~ Menu")
+        utils.set_title("ValoCheck ~ Menu")
         clear()
         print(logo)
         print()
-        print(f"{Icon} Hello Welcome to Valo.py!")
+        print(f"{Icon} Hello Welcome to ValoCheck!")
         print(f"{Icon} Where do you want to go? ")
         print()
         print(f"{Icon1} Checker")
@@ -235,17 +227,13 @@ class Valorant():
     root.withdraw()
     logo = f"""
     {Fore.LIGHTCYAN_EX}
-
- ██▒   █▓    ▄▄▄          ██▓        ▒█████              ██▓███ ▓██   ██▓
-▓██░   █▒   ▒████▄       ▓██▒       ▒██▒  ██▒           ▓██░  ██▒▒██  ██▒
- ▓██  █▒░   ▒██  ▀█▄     ▒██░       ▒██░  ██▒           ▓██░ ██▓▒ ▒██ ██░
-  ▒██ █░░   ░██▄▄▄▄██    ▒██░       ▒██   ██░           ▒██▄█▓▒ ▒ ░ ▐██▓░
-   ▒▀█░      ▓█   ▓██▒   ░██████▒   ░ ████▓▒░    ██▓    ▒██▒ ░  ░ ░ ██▒▓░
-   ░ ▐░      ▒▒   ▓▒█░   ░ ▒░▓  ░   ░ ▒░▒░▒░     ▒▓▒    ▒▓▒░ ░  ░  ██▒▒▒ 
-   ░ ░░       ▒   ▒▒ ░   ░ ░ ▒  ░     ░ ▒ ▒░     ░▒     ░▒ ░     ▓██ ░▒░ 
-     ░░       ░   ▒        ░ ░      ░ ░ ░ ▒      ░      ░░       ▒ ▒ ░░  
-      ░           ░  ░       ░  ░       ░ ░       ░              ░ ░     
-     ░                                            ░              ░ ░     
+ _   _       _       _____ _               _    
+| | | |     | |     /  __ \ |             | |   
+| | | | __ _| | ___ | /  \/ |__   ___  ___| | __
+| | | |/ _` | |/ _ \| |   | '_ \ / _ \/ __| |/ /
+\ \_/ / (_| | | (_) | \__/\ | | |  __/ (__|   < 
+ \___/ \__,_|_|\___/ \____/_| |_|\___|\___|_|\_\
+                                                
    """
 
 
@@ -373,7 +361,7 @@ class Valorant():
             pass
         cmp1 = cpm
         cpm = 0
-        windll.kernel32.SetConsoleTitleW(f" Valo.py - (By Endless) | Checked: {checked}\{len(emails)} -  Good: {hits} - Bad: {fail} - Customs: {free} - Banned Accounts: {banned} - Cpm: {cmp1*60} - Retries: {retries} - Errors: {error} ")
+        windll.kernel32.SetConsoleTitleW(f" ValoCheck - (By Xrana) | Checked: {checked}\{len(emails)} -  Good: {hits} - Bad: {fail} - Customs: {free} - Banned Accounts: {banned} - Cpm: {cmp1*60} - Retries: {retries} - Errors: {error} ")
         time.sleep(1)
         threading.Thread(target=Valorant.ScreenLOG, args=()).start()
 
@@ -387,7 +375,7 @@ class Valorant():
         cpm = 0
         print(logo)
         print()
-        print(" Valo.py Running... [{}]".format(Fore.LIGHTMAGENTA_EX + str(ComboName) + Fore.LIGHTWHITE_EX))
+        print(" ValoCheck Running... [{}]".format(Fore.LIGHTMAGENTA_EX + str(ComboName) + Fore.LIGHTWHITE_EX))
         print(f" [{checked}\{len(emails)}] Checked")
         print(" [{}] Good".format(Fore.LIGHTGREEN_EX + str(hits) + Fore.LIGHTWHITE_EX))
         print(" [{}] Bad".format(Fore.LIGHTRED_EX + str(fail) + Fore.LIGHTWHITE_EX))
@@ -395,7 +383,7 @@ class Valorant():
         print(" [{}] Customs".format(Fore.LIGHTYELLOW_EX + str(free) + Fore.LIGHTWHITE_EX))
         print(" [{}] Retries".format(Fore.LIGHTCYAN_EX + str(retries) + Fore.LIGHTWHITE_EX))
         print(" [{}] Errors".format(Fore.LIGHTYELLOW_EX + str(error) +  Fore.LIGHTWHITE_EX))
-        windll.kernel32.SetConsoleTitleW(f" Valo.py - (By Endless) | Checked: {checked}\{len(emails)} -  Good: {hits} - Bad: {fail} - Customs: {free} - Banned Accounts: {banned} - Cpm: {cmp1*60} - Retries: {retries} - Errors: {error} ")
+        windll.kernel32.SetConsoleTitleW(f" ValoCheck - (By Xrana) | Checked: {checked}\{len(emails)} -  Good: {hits} - Bad: {fail} - Customs: {free} - Banned Accounts: {banned} - Cpm: {cmp1*60} - Retries: {retries} - Errors: {error} ")
         time.sleep(1)
         threading.Thread(target=Valorant.ScreenCUI, args=()).start()
 
@@ -560,7 +548,7 @@ class Valorant():
     def CheckerMenu():
         global thread,proxytype
         clear()
-        windll.kernel32.SetConsoleTitleW("Valo.py - (By Endless)")
+        windll.kernel32.SetConsoleTitleW("ValoCheck - (By Xrana)")
         print(logo)
         print()
         print()
@@ -608,4 +596,4 @@ class Valorant():
 Menu.ConsolHepler()
 Menu.Menu()
 
-# by Endless
+# by Xrana
