@@ -524,7 +524,7 @@ class Valorant():
             checked += 1
             cpm += 1
             SaveHits = open("results/{}/Hits_Full_Capture.txt".format(today), "a+")
-            SaveHits.write(f"[--------------[Valo.py]--------------]\n| User&Pass: {User}:{Pass}\n| Region: {Region}\n| Level: {AccountLevel}\n| Email Verified: {EmailVerified}\n| Rank: {Rank}\n| VP: {ValorantPoints} - RP: {Radianite}\n|-------------[Skins({len(Skin)})]-------------]\n{SkinStr}[-------------------------------------]\n\n")
+            SaveHits.write(f"[--------------[ValoCheck]--------------]\n| User&Pass: {User}:{Pass}\n| Region: {Region}\n| Level: {AccountLevel}\n| Email Verified: {EmailVerified}\n| Rank: {Rank}\n| VP: {ValorantPoints} - RP: {Radianite}\n|-------------[Skins({len(Skin)})]-------------]\n{SkinStr}[-------------------------------------]\n\n")
             SaveHits.close()
             SaveHitss = open("results/{}/Hits.txt".format(today), "a+")
             SaveHitss.write(f"{User}:{Pass} | Region: {Region} | Level: {AccountLevel} | Email Verified: {EmailVerified} | Rank: {Rank} | VP: {ValorantPoints} | RP: {Radianite} | Total Skins: {len(Skin)}\n")
