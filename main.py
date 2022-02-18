@@ -69,7 +69,7 @@ class Setting():
     def ConfigUpdate():
         clear = lambda: os.system('cls')
         clear()
-        utils.set_title("Valo.py ~ Settings")
+        utils.set_title("ValoCheck ~ Settings")
         if RemoveDupes == False:
             RemoveDupesColor = Fore.LIGHTRED_EX
         else:
